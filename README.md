@@ -70,3 +70,6 @@ The e2e tests are using Protractor and Jasmine.
 ## License
 
 [License](LICENSE.txt)
+
+## Link to the deployed working front end: 
+* http://psi-bucket-1.s3-website-us-east-1.amazonaws.com/home

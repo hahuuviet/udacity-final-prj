@@ -1,0 +1,21 @@
+branch-defaults:
+  default:
+    environment: udagram-backend-dev
+deploy:
+  artifact: www/Archive.zip
+environment-defaults:
+  udagram-backend-dev:
+    branch: null
+    repository: null
+global:
+  application_name: udagram-backend
+  default_ec2_keyname: vockey
+  default_platform: Node.js 20
+  default_region: us-east-1
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: default
+  sc: null
+  workspace_type: Application
